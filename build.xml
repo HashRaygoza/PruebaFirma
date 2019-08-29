@@ -78,6 +78,8 @@
         <echo message="Signing ${dist.dir}/PruebaFirma.jar ..."/>
         <exec dir="${work.dir}" executable="jarsigner">
             <arg value="-verbose" />
+            <arg value="-tsa" />
+            <arg value="http://timestamp.digicert.com" />
             <arg value="-keystore" />
             <arg value="myKeystore.jks" />
             <arg value="-storepass" />
