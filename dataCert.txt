@@ -1,0 +1,26 @@
+Nombre de Alias: myself
+Fecha de Creación: 13/08/2019
+Tipo de Entrada: PrivateKeyEntry
+Longitud de la Cadena de Certificado: 1
+Certificado[1]:
+Propietario: CN=David, OU=Pydee, O=Pydee, L=SLP, ST=SLP, C=MX
+Emisor: CN=David, OU=Pydee, O=Pydee, L=SLP, ST=SLP, C=MX
+Número de serie: adc3842
+Válido desde: Tue Aug 13 12:46:38 CDT 2019 hasta: Mon Nov 11 11:46:38 CST 2019
+Huellas digitales del Certificado:
+	 MD5: 13:16:40:92:37:93:55:12:0E:F8:46:6E:87:5A:47:82
+	 SHA1: A4:B9:D2:E4:FE:5E:9B:92:F2:A7:C3:E4:73:13:DC:A0:41:65:5A:9F
+	 SHA256: E5:65:5E:56:FC:18:3C:F9:9C:42:DA:20:92:0D:3E:F7:C7:1E:8F:2D:94:D7:E7:13:36:4D:F5:C5:17:F6:FB:0B
+	 Nombre del Algoritmo de Firma: SHA256withDSA
+	 Versión: 3
+
+Extensiones: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 64 DC 17 10 A9 DB F6 F1   41 2D 54 18 0B C9 61 B8  d.......A-T...a.
+0010: 91 56 55 F2                                        .VU.
+]
+]
+
