@@ -69,15 +69,14 @@
     properties which you can use, check the target you are overriding in the
     nbproject/build-impl.xml file. 
     -->
-        
-    <target name="-post-jar" depends="datacert,addDataCert,signjar">
+            <target name="-post-jar" depends="datacert,addDataCert,signjar">
     </target>
     
     <target name="datacert" depends="">
         <echo message="Obteniendo datos certificado ..."/>
         <exec dir="${work.dir}" executable="cmd.exe">
             <arg value="/C" />
-            <arg value="keytool -list -v -keystore myKeystore.jks -alias myself  -storepass 123456789  > dataCert.txt" />
+            <arg value="keytool -J-Duser.language=en -list -v -keystore myKeystore.jks -alias myself  -storepass 123456789  > dataCert.txt" />
         </exec>
     </target>
     
